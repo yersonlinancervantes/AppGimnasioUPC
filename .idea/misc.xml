@@ -10,6 +10,18 @@
         <entry key="..\:/01_UPC/APLICACIONES MOVILES ANDROID/PROYECTO/AppPorkys/app/src/main/res/layout/fragment_inicio.xml" value="0.25" />
         <entry key="..\:/01_UPC/APLICACIONES MOVILES ANDROID/PROYECTO/AppPorkys/app/src/main/res/layout/fragment_listar_control_porcino.xml" value="0.25" />
         <entry key="..\:/01_UPC/APLICACIONES MOVILES ANDROID/PROYECTO/AppPorkys/app/src/main/res/layout/fragment_listar_parto_porcino.xml" value="0.25" />
+        <entry key="..\:/01_UPC/APLICACIONES MOVILES ANDROID/PROYECTO/AppPorkys/app/src/main/res/layout/fragment_listar_porcino.xml" value="0.25" />
+        <entry key="..\:/01_UPC/APLICACIONES MOVILES ANDROID/PROYECTO/AppPorkys/app/src/main/res/layout/fragment_modificar_control_porcino.xml" value="0.25" />
+        <entry key="..\:/01_UPC/APLICACIONES MOVILES ANDROID/PROYECTO/AppPorkys/app/src/main/res/layout/fragment_modificar_parto_porcino.xml" value="0.25" />
+        <entry key="..\:/01_UPC/APLICACIONES MOVILES ANDROID/PROYECTO/AppPorkys/app/src/main/res/layout/fragment_registrar_parto_porcino.xml" value="0.25" />
+        <entry key="..\:/01_UPC/APLICACIONES MOVILES ANDROID/PROYECTO/AppPorkys/app/src/main/res/layout/fragment_registrar_porcino.xml" value="0.25" />
+        <entry key="..\:/01_UPC/APLICACIONES MOVILES ANDROID/PROYECTO/AppPorkys/app/src/main/res/layout/fragment_registro_control_porcino.xml" value="0.25" />
+        <entry key="..\:/01_UPC/APLICACIONES MOVILES ANDROID/PROYECTO/AppPorkys/app/src/main/res/layout/fragment_reporte_compra.xml" value="0.25" />
+        <entry key="..\:/01_UPC/APLICACIONES MOVILES ANDROID/PROYECTO/AppPorkys/app/src/main/res/layout/fragment_salir.xml" value="0.25" />
+        <entry key="..\:/01_UPC/APLICACIONES MOVILES ANDROID/PROYECTO/AppPorkys/app/src/main/res/layout/layout_navigation_header.xml" value="0.25" />
+        <entry key="..\:/01_UPC/APLICACIONES MOVILES ANDROID/PROYECTO/AppPorkys/app/src/main/res/layout/progress_dialog.xml" value="0.25" />
+        <entry key="..\:/01_UPC/APLICACIONES MOVILES ANDROID/PROYECTO/AppPorkys/app/src/main/res/layout/row_listview.xml" value="0.25" />
+        <entry key="..\:/01_UPC/APLICACIONES MOVILES ANDROID/PROYECTO/AppPorkys/app/src/main/res/layout/row_listview_parto_porcino.xml" value="0.25" />
         <entry key="..\:/01_UPC/APLICACIONES MOVILES ANDROID/PROYECTO/AppPorkys/app/src/main/res/menu/navigation_menu.xml" value="0.25" />
       </map>
     </option>
