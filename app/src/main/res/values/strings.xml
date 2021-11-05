@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">App Porkys</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="spnTipoOpciones">
+        <item>Cerdo de reproduccion</item>
+        <item>Cerdo de consumo</item>
+    </string-array>
+    <string-array name="spnGeneroOpciones">
+        <item>Macho</item>
+        <item>Hembra</item>
+    </string-array>
+    <string-array name="spnRazaOpciones">
+        <item>Cerdo Poland China</item>
+        <item>Cerdo Hampshire</item>
+        <item>Cerdo Duroc</item>
+        <item>Cerdo chester white</item>
+        <item>Cerdo landrace belga</item>
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+</resources>

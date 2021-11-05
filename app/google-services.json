@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "389547731244",
+    "project_id": "appporky",
+    "storage_bucket": "appporky.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:389547731244:android:26d3e55c4673775c5ee489",
+        "android_client_info": {
+          "package_name": "com.example.appporkys"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "389547731244-dc5g7rvddrqrq29bjc5m3mn53obn663i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCq8fifaDp9-Cq8p831e6WoCrc5ICkqt4k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "389547731244-dc5g7rvddrqrq29bjc5m3mn53obn663i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

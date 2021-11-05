@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/menu_general"
+    >
+    <item
+        android:id="@+id/inicio"
+        android:icon="@drawable/ic_home"
+        android:title="Inicio"
+        />
+    <item
+        android:id="@+id/listarPorcino"
+        android:icon="@drawable/ic_add"
+        android:title="Listar Porcinos"
+        />
+    <item
+        android:id="@+id/reporte"
+        android:icon="@drawable/ic_add"
+        android:title="Reporte"
+        />
+    <item
+        android:id="@+id/mapa"
+        android:icon="@drawable/ic_add"
+        android:title="Mapa"
+        />
+    <item
+        android:id="@+id/salir"
+        android:icon="@drawable/ic_add"
+        android:title="Salir"
+        />
+</menu>

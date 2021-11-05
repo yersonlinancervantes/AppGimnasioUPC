@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    app:startDestination="@id/inicio">
+
+    <fragment
+        android:id="@+id/listarPorcino"
+        android:name="com.example.appporkys.ListarPorcinoFragment"
+        android:label="fragment_listar_porcino"
+        tools:layout="@layout/fragment_listar_porcino" >
+        <action
+            android:id="@+id/action_listarPorcino_to_listarControlPorcinoFragment"
+            app:destination="@id/listarControlPorcinoFragment" />
+        <action
+            android:id="@+id/action_listarPorcino_to_listarPartoPorcinoFragment"
+            app:destination="@id/listarPartoPorcinoFragment" />
+        <action
+            android:id="@+id/action_listarPorcino_to_registrarPorcinoFragment"
+            app:destination="@id/registrarPorcinoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/inicio"
+        android:name="com.example.appporkys.InicioFragment"
+        android:label="fragment_inicio"
+        tools:layout="@layout/fragment_inicio" />
+    <fragment
+        android:id="@+id/listarControlPorcinoFragment"
+        android:name="com.example.appporkys.ListarControlPorcinoFragment"
+        android:label="fragment_listar_control_porcino"
+        tools:layout="@layout/fragment_listar_control_porcino" >
+        <action
+            android:id="@+id/action_listarControlPorcinoFragment_to_registroControlPorcinoFragment"
+            app:destination="@id/registroControlPorcinoFragment" />
+        <action
+            android:id="@+id/action_listarControlPorcinoFragment_to_modificarControlPorcinoFragment"
+            app:destination="@id/modificarControlPorcinoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registroControlPorcinoFragment"
+        android:name="com.example.appporkys.RegistroControlPorcinoFragment"
+        android:label="fragment_registro_control_porcino"
+        tools:layout="@layout/fragment_registro_control_porcino" >
+        <action
+            android:id="@+id/action_registroControlPorcinoFragment_to_listarControlPorcinoFragment"
+            app:destination="@id/listarControlPorcinoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/modificarControlPorcinoFragment"
+        android:name="com.example.appporkys.ModificarControlPorcinoFragment"
+        android:label="fragment_modificar_control_porcino"
+        tools:layout="@layout/fragment_modificar_control_porcino" />
+    <fragment
+        android:id="@+id/listarPartoPorcinoFragment"
+        android:name="com.example.appporkys.ListarPartoPorcinoFragment"
+        android:label="fragment_listar_parto_porcino"
+        tools:layout="@layout/fragment_listar_parto_porcino" >
+        <action
+            android:id="@+id/action_listarPartoPorcinoFragment_to_registrarPartoPorcinoFragment"
+            app:destination="@id/registrarPartoPorcinoFragment" />
+        <action
+            android:id="@+id/action_listarPartoPorcinoFragment_to_modificarPartoPorcinoFragment"
+            app:destination="@id/modificarPartoPorcinoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registrarPartoPorcinoFragment"
+        android:name="com.example.appporkys.RegistrarPartoPorcinoFragment"
+        android:label="fragment_registrar_parto_porcino"
+        tools:layout="@layout/fragment_registrar_parto_porcino" >
+        <action
+            android:id="@+id/action_registrarPartoPorcinoFragment_to_listarPartoPorcinoFragment"
+            app:destination="@id/listarPartoPorcinoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/modificarPartoPorcinoFragment"
+        android:name="com.example.appporkys.ModificarPartoPorcinoFragment"
+        android:label="fragment_modificar_parto_porcino"
+        tools:layout="@layout/fragment_modificar_parto_porcino" />
+    <fragment
+        android:id="@+id/reporte"
+        android:name="com.example.appporkys.ReporteCompraFragment"
+        android:label="fragment_reporte_compra"
+        tools:layout="@layout/fragment_reporte_compra" />
+    <fragment
+        android:id="@+id/salir"
+        android:name="com.example.appporkys.SalirFragment"
+        android:label="fragment_salir"
+        tools:layout="@layout/fragment_salir" />
+    <activity
+        android:id="@+id/mapa"
+        android:name="com.example.appporkys.MapsActivity"
+        android:label="activity_maps"
+        tools:layout="@layout/activity_maps" />
+    <activity
+        android:id="@+id/registroPorcinoActivity"
+        android:name="com.example.appporkys.RegistroPorcinoActivity"
+        android:label="activity_registro_porcino"
+        tools:layout="@layout/activity_registro_porcino" />
+    <fragment
+        android:id="@+id/registrarPorcinoFragment"
+        android:name="com.example.appporkys.RegistrarPorcinoFragment"
+        android:label="fragment_registrar_porcino"
+        tools:layout="@layout/fragment_registrar_porcino" >
+        <action
+            android:id="@+id/action_registrarPorcinoFragment_to_listarPorcino"
+            app:destination="@id/listarPorcino" />
+    </fragment>
+</navigation>
